@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachat Bazaar</title> 
+    <style>
+        /* Full-page background image */
+        body {
+            background-image: url("https://t3.ftcdn.net/jpg/02/24/64/56/360_F_224645618_dtpq1bEjnN67g3gampm39hg698AUC9tf.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Fancy button */
+        #button1 {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-transform: uppercase;
+            position: absolute;
+            left: 50%;
+            top: 75%;
+            transform: translate(-50%, -50%);
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        /* Button Hover Effect */
+        #button1:hover {
+            background-color: darkred;
+            transform: translate(-50%, -50%) scale(1.1);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        #bachat {
+            background-color: coral;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: black;
+            border-radius: 10px;
+            cursor: pointer;
+            text-transform: uppercase;
+            position: absolute;
+            top: 10%;
+            left: 30%;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="bachat">BACHAT BAZAAR</h1>
+
+    <!-- Enter Now Button with Redirection -->
+    <a href="login.html">
+        <button id="button1">Enter Now</button>
+    </a>
+
+</body>
+</html>

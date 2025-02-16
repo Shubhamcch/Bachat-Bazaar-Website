@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-online-shopping-promotion-mobile-online-payment-picture-image_1389350.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #button1:hover {
+            background-color: darkred;
+            transform: translate(-50%, -50%) scale(1.1);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+            
+            
+        }
+        #form {
+            background-color: rgb(162, 162, 223);
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-transform: uppercase;
+            position: absolute;
+            left: 70%;
+            top: 45%;
+            transform: translate(-50%, -50%);
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+       <label>NAME :</label> 
+       <input type="text" placeholder="ENTER NAME" required><br>
+       <label>NUMBER :</label>
+       <input type="number" placeholder="ENTER NUMBER" required><br>
+       <label>GENDER :</label><br>
+       <input type="radio" name="GENDER"><label>MALE</label>
+       <input type="radio" name="GENDER"><label>FEMALE</label><br>
+       <label>PASSWORD :</label>
+       <input type="password" placeholder="PASSWORD" required><br>
+      
+    </form>
+    <a href="offer.html">
+        <button id="button1">LOGIN</button>
+    </a>
+</body>
+</html>
